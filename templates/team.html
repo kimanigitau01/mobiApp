@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Team - Mobility Kenya</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/team.css' %}">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Meet Our Team</h1>
+        <p>Behind Mobility Kenya is a talented and diverse group of experts</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#">Features</a>
+        <a href="contact.html">Contact</a>
+        <a href="team.html" class="active">Our Team</a>
+    </nav>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2>Our Leadership</h2>
+            <p>Our team is composed of passionate professionals dedicated to improving mobility for Kenyans.</p>
+
+            <!-- Team Members -->
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="{% static 'imgs/pexels-allen-snapper-49566107-29293929.jpg' %}" alt="Team Member 1">
+                    <h3>John Mwangi</h3>
+                    <p>Co-Founder & CEO</p>
+                    <p>John leads our vision and growth. With over 10 years of experience in the mobility and tech industries, he is passionate about solving transportation challenges in Kenya.</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'imgs/pexels-brendon-koeberg-14618162-27236576.jpg' %}" alt="Team Member 2">
+                    <h3>Jane Wambui</h3>
+                    <p>Chief Operations Officer</p>
+                    <p>Jane oversees our daily operations, ensuring everything runs smoothly. Her background in logistics makes her a key player in our success.</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'imgs/pexels-mikhail-nilov-9301462.jpg' %}" alt="Team Member 3">
+                    <h3>David Omondi</h3>
+                    <p>Chief Technology Officer</p>
+                    <p>David is the brains behind our innovative tech platform. He is passionate about using technology to improve transportation access across Kenya.</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'imgs/pexels-mikhail-nilov-9301869.jpg' %}" alt="Team Member 4">
+                    <h3>Amina Hassan</h3>
+                    <p>Marketing Director</p>
+                    <p>Amina drives our marketing strategy and connects Mobility Kenya with our users through compelling campaigns and partnerships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mobility Kenya | All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>

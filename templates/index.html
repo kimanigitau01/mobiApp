@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Mobility App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mobility Kenya</h1>
+        <p>Your reliable transport solution across Kenya</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">How it Works</a>
+        <a href="#">Download</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Move Around Kenya with Ease</h2>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="{% static 'imgs/matatu.jpeg' %}" alt="Safety Icon">
+            <h3>Safety First</h3>
+            <p>All our drivers are vetted and trained to ensure your safety comes first.</p>
+        </div>
+        <div class="feature">
+            <img src="{% static 'imgs/matatu.jpeg' %}" alt="Affordable Icon">
+            <h3>Affordable Rides</h3>
+            <p>We offer competitive pricing so you can get around without breaking the bank.</p>
+        </div>
+        <div class="feature">
+            <img src="{% static 'imgs/matatu.jpeg' %}" alt="Fast Icon">
+            <h3>Quick & Reliable</h3>
+            <p>Get picked up and dropped off on time with our reliable fleet of vehicles.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mobility Kenya | All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>

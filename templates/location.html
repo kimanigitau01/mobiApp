@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Locations - Mobility Kenya</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/location.css' %}">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Our Locations</h1>
+        <p>Find us at key locations across Kenya</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#">Features</a>
+        <a href="contact.html">Contact</a>
+        <a href="team.html">Our Team</a>
+        <a href="location.html" class="active">Locations</a>
+    </nav>
+
+    <!-- Location Section -->
+    <section class="location">
+        <div class="container">
+            <h2>Our Office Locations</h2>
+            <p>We have offices in key cities to ensure we are close to you and ready to help.</p>
+
+            <!-- Locations Grid -->
+            <div class="location-grid">
+                <div class="location-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Nairobi Office">
+                    <h3>Nairobi Headquarters</h3>
+                    <p>123 Moi Avenue, Nairobi, Kenya</p>
+                    <p>Our main office in Nairobi, offering customer support and executive services.</p>
+                </div>
+                <div class="location-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Mombasa Office">
+                    <h3>Mombasa Office</h3>
+                    <p>456 Nyali Road, Mombasa, Kenya</p>
+                    <p>Located near the coast, our Mombasa office serves customers in the region.</p>
+                </div>
+                <div class="location-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Kisumu Office">
+                    <h3>Kisumu Office</h3>
+                    <p>789 Oginga Odinga Street, Kisumu, Kenya</p>
+                    <p>Our Kisumu branch provides support to the western region of Kenya.</p>
+                </div>
+            </div>
+
+            <!-- Map (Placeholder or Integration) -->
+            <div class="map-container">
+                <h2>Find Us on the Map</h2>
+                <p>Use the map below to locate our offices.</p>
+                <div class="map">
+                    <!-- Placeholder for the map -->
+                    <img src="https://via.placeholder.com/800x400" alt="Map Placeholder">
+                    <!-- To use Google Maps, you can embed it like this:
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.6159627149986!2d36.821946575477156!3d-1.2920659859759876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDE3JzMyLjQiTiAzNsKwNDknMjAuNiJF!5e0!3m2!1sen!2ske!4v1639996476105!5m2!1sen!2ske"
+                        width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mobility Kenya | All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
